@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;  
+}
+
+html,body,#app {
+	height: 100%;
+	width: 100%;
+	
+	/* background: rgb(190, 189, 189); */
+	background: url(../background.jpg) no-repeat 0 0 / cover;
+}
+.chart,
+.chart_view {
+  height: 100%;
+	width: 100%;
+	padding: 5px;
+	color: #fff !important; 
+}
+canvas{
+	background: rgba(12, 12, 42, 0.5); /* 黑蓝色半透明 */
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px rgb(0, 36, 72);
+	color: #fff;  /* 字体颜色为白色 */
+}
+.title {
+	background: linear-gradient(to right, #1c427285, #6a7d87) !important;
+}

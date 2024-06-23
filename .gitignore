@@ -1,0 +1,8 @@
+.idea
+test
+train
+data/*
+*.zip
+*.pdf
+.DS_Store
+.env
